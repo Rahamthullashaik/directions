@@ -1,0 +1,10 @@
+def on_button_pressed_a():
+    basic.show_arrow(ArrowNames.NORTH)
+    basic.pause(100)
+    basic.show_arrow(ArrowNames.SOUTH)
+    basic.pause(100)
+    basic.show_arrow(ArrowNames.EAST)
+    basic.pause(100)
+    basic.show_arrow(ArrowNames.WEST)
+    basic.pause(100)
+input.on_button_pressed(Button.A, on_button_pressed_a)
